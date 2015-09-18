@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git creates a new file .git. This holds metadata on the files. 
+When files are committed the metadata is updated.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area holds files that will be committed. It groups the file together. Files grouped together should be similar and contain related fixes. 
+
